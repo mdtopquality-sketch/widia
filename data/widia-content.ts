@@ -77,6 +77,6 @@ Noi di **Widia Bari e Puglia** ritiriamo direttamente presso la tua sede in tutt
 
 export const WA_NUMBER = "393446667155";
 export const WA_LINK = `https://wa.me/${WA_NUMBER}`;
-export const SITE_URL = "https://widiabariepuglia.it";
+export const SITE_URL = "https://comprowidiabaripuglia.com";
 export const SITE_NAME = "Widia Bari e Puglia";
 export const SITE_EMAIL = "info@widiabariepuglia.it";
