@@ -67,9 +67,20 @@ export default function Navbar() {
               </a>
             </div>
 
-            {/* Hamburger */}
+            {/* WhatsApp mobile + Hamburger */}
+            <div className="md:hidden flex items-center gap-2">
+              <a
+                href={WA_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-[hsl(142,70%,35%)] hover:bg-[hsl(142,70%,30%)] text-white px-3 py-2 rounded-lg text-sm font-semibold transition-colors"
+                aria-label="WhatsApp"
+              >
+                <MessageCircle size={16} />
+                <span>WhatsApp</span>
+              </a>
             <button
-              className="md:hidden p-2 text-foreground rounded-lg hover:bg-muted transition-colors"
+              className="p-2 text-foreground rounded-lg hover:bg-muted transition-colors"
               aria-label={menuOpen ? "Chiudi menu" : "Apri menu"}
               aria-expanded={menuOpen}
               onClick={() => setMenuOpen((v) => !v)}
@@ -81,7 +92,7 @@ export default function Navbar() {
                 {menuOpen ? <X size={24} /> : <Menu size={24} />}
               </span>
             </button>
-          </div>
+            </div>
         </div>
       </nav>
 
