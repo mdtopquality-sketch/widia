@@ -10,32 +10,40 @@ import { SITE_URL, SITE_NAME } from "@/data/widia-content";
 import { cities } from "@/data/cities";
 
 export const metadata: Metadata = {
-  title: `${SITE_NAME} | Ritiro Widia, Carburo di Tungsteno e Metallo Duro`,
+  title: `Compro Widia Bari e Puglia | Carburo di Tungsteno e Metallo Duro`,
   description:
-    "Acquisto Widia, carburo di tungsteno, metallo duro, inserti, frese, punte e rottami in tutta la Puglia. Ritiro gratuito, valutazione trasparente, pagamento immediato. Bari, Taranto, Lecce, Foggia, Brindisi.",
+    "Compro Widia usato, carburo di tungsteno e metallo duro in tutta la Puglia. Inserti, frese, punte e rottami. Bari, Taranto, Lecce, Foggia, Brindisi. Contattaci su WhatsApp.",
   keywords: [
     "compro widia",
+    "compro widia usato",
+    "compro widia bari",
+    "compro widia puglia",
     "widia bari",
     "widia puglia",
     "carburo di tungsteno",
+    "compro carburo di tungsteno",
     "metallo duro",
-    "ritiro widia",
+    "compro metallo duro",
     "acquisto widia",
-    "inserti widia",
-    "frese widia",
+    "inserti widia usati",
+    "frese widia usate",
+    "punte widia usate",
     "rottami widia",
+    "vendere widia",
+    "vendere metallo duro puglia",
     "widia taranto",
     "widia lecce",
     "widia foggia",
     "widia brindisi",
+    "tungsteno puglia",
   ],
   alternates: {
     canonical: SITE_URL,
   },
   openGraph: {
-    title: `${SITE_NAME} | Ritiro Widia e Metallo Duro`,
+    title: `Compro Widia Bari e Puglia | Carburo di Tungsteno e Metallo Duro`,
     description:
-      "Acquisto Widia, carburo di tungsteno e metallo duro in tutta la Puglia. Ritiro gratuito e pagamento immediato.",
+      "Compro Widia usato, carburo di tungsteno e metallo duro in Puglia. Contattaci su WhatsApp.",
     url: SITE_URL,
     type: "website",
   },

@@ -26,23 +26,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = getCityBySlug(citySlug);
   if (!city) return {};
 
-  const title = `Widia ${city.name} | Ritiro Widia e Metallo Duro ${city.name}`;
-  const description = `Acquisto Widia e carburo di tungsteno a ${city.name} (${city.provincia}). Ritiro gratuito inserti, frese, punte, metallo duro e rottami. Valutazione immediata, pagamento sul posto. Servizio in tutta la Puglia.`;
+  const title = `Compro Widia ${city.name} | Carburo di Tungsteno e Metallo Duro`;
+  const description = `Compro Widia usato a ${city.name} (${city.provincia}): inserti, frese, punte, carburo di tungsteno, metallo duro e rottami. Contattaci su WhatsApp.`;
   const url = `${SITE_URL}/widia-${city.slug}`;
 
   return {
     title,
     description,
     keywords: [
-      `widia ${city.name.toLowerCase()}`,
       `compro widia ${city.name.toLowerCase()}`,
+      `widia ${city.name.toLowerCase()}`,
       `acquisto widia ${city.name.toLowerCase()}`,
-      `ritiro widia ${city.name.toLowerCase()}`,
       `carburo di tungsteno ${city.name.toLowerCase()}`,
       `metallo duro ${city.name.toLowerCase()}`,
+      `inserti widia ${city.name.toLowerCase()}`,
+      `frese widia ${city.name.toLowerCase()}`,
       `rottami widia ${city.provincia.toLowerCase()}`,
+      `compro metallo duro ${city.provincia.toLowerCase()}`,
       "widia puglia",
+      "compro widia puglia",
       "carburo di tungsteno puglia",
+      "vendere widia puglia",
     ],
     alternates: { canonical: url },
     openGraph: {
